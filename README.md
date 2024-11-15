@@ -22,24 +22,24 @@ Ensure you have the following installed:
 
 ### Installation
 
-1. Clone the repository:
+   1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/tic-tac-toe-react.git
+   git clone https://github.com/PabloRius/tic-tac-toe-react.git
    cd tic-tac-toe-react
    ```
-Install dependencies:
+   2. Install dependencies:
    ```bash
-npm install
+   npm install
    ```
-Start the development server:
+   3. Start the development server:
    ```bash
-npm run dev
+   npm run dev
    ```
-Open the app in your browser:
+   4. Open the app in your browser:
 
    ```bash
-http://localhost:5173
-  ```
+   http://localhost:5173
+   ```
 
 ## 🕹️ How to Play
   1. Open the app in your [browser](http://localhost:5173).
@@ -89,4 +89,4 @@ Contributions are welcome! Please follow these steps:
 
 ## 🔑 License
 
-[MIT](LICENSE.txt) - Creado por [**Pablo García Rius**](https://pablo-garcia-rius.vercel.app/).
+[MIT](LICENSE.txt) - Created By [**Pablo García Rius**](https://pablo-garcia-rius.vercel.app/).
