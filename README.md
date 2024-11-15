@@ -48,23 +48,10 @@ Ensure you have the following installed:
   4. A winner is declared when three of the same symbols align horizontally, vertically, or diagonally. If all squares are filled without a winner, it's a draw.
   5. Use the Reset Game button to start a new game.
 
-## 📂 Project Structure
-
-src/
-├── components/ 
-│   ├── Square.jsx          # Square component for rendering board cells
-│   ├── WinnerModal.jsx     # Modal component for displaying winner/draw message
-├── logic/
-│   ├── board.js            # Game logic for winner detection and endgame checks
-├── constants.js            # Constants like turns and winning combinations
-├── App.jsx                 # Main game component
-├── main.jsx                # React entry point
-├── index.css               # Global styles
-
-Built With
-[React.js](https://react.dev/) - JavaScript library for building user interfaces
-[Vite](https://vite.dev/) - Fast build tool and development server
-[canvas-confetti](https://github.com/catdad/canvas-confetti) - Library for rendering confetti effects
+## 📦 Built With
+- [React.js](https://react.dev/) - JavaScript library for building user interfaces
+- [Vite](https://vite.dev/) - Fast build tool and development server
+- [canvas-confetti](https://github.com/catdad/canvas-confetti) - Library for rendering confetti effects
 
 ## 🎨 Styling
 The game is styled using CSS, with responsiveness and a dark theme for a modern look. Check out src/index.css for custom styles.
