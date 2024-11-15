@@ -21,8 +21,8 @@ function App() {
   const [winner, setWinner] = useState(null)
 
   useEffect(() => {
-    window.localStorage.setItem('board', JSON.stringify(newBoard))
-    window.localStorage.setItem('turn', newTurn)
+    window.localStorage.setItem('board', JSON.stringify(board))
+    window.localStorage.setItem('turn', turn)
   }, [ turn, board ])
 
   const updateBoard = (index) => {
