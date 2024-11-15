@@ -51,7 +51,7 @@ Ensure you have the following installed:
 ## 📂 Project Structure
 
 src/
-├── components/
+├── components/ 
 │   ├── Square.jsx          # Square component for rendering board cells
 │   ├── WinnerModal.jsx     # Modal component for displaying winner/draw message
 ├── logic/
